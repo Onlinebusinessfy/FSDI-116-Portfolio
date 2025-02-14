@@ -3,18 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Prata&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/section.css">
     <link rel="stylesheet" href="./css/responsive.css">
     <title>116 Portfolio</title>
 </head>
 <body>
-    <header class="center center-header-sections">
-        <div class="logo-container">
-            <a href="">
-                <h2>Samuel Dominguez</h2>
-            </a>
-        </div>
+    <header class="center-row center-header-sections">
 
         <nav>
             <!-- Hamburguer button -->
@@ -29,22 +28,48 @@
             </div>
 
             <!-- Links or Options of the Menu -->
-            <div class="nav-link center">
+            <div class="nav-link center-row">
                 <a href="#">About Me</a>
                 <a href="#">Projects</a>
                 <a href="#">Experience</a>
                 <a href="#">Contact</a>
             </div>
         </nav>
+
+        <div></div>
     </header>
 
-    <section>
-        <!-- About section -->
+    <section class="about-section center-row">
+        <div class="about-image-container center-row">
+            <img src="./img/my-photo.png" alt="my amazing picture">
+        </div>
+
+        <div class="about-description-container center-column">
+            <h1>This is my rol as developer</h1>
+            <h2>Samuel Dominguez</h2>
+
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime architecto cumque distinctio magni voluptatum reprehenderit temporibus totam tempora minima, culpa fuga ratione accusamus dolor consectetur, a eos eveniet placeat soluta?
+            Odio ducimus fugit, numquam obcaecati explicabo ad neque nemo delectus facere molestiae, eveniet dolorem sit? Ipsam cumque, magnam pariatur obcaecati expedita commodi, ducimus a provident assumenda perspiciatis inventore, nemo sunt.
+            Itaque harum quibusdam distinctio! Aliquam vitae ex tenetur dolore, soluta ut minima eveniet consequatur tempora corrupti doloremque labore laborum deserunt praesentium. Similique illum magni accusamus ipsam odio recusandae iure qui.</p>
+        </div>
     </section>
 
-    <h1>Title</h1>
-    <h2>Subtitle</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga fugiat impedit ratione minima temporibus, sapiente incidunt praesentium rem nobis porro ad, accusantium ducimus possimus beatae aliquid voluptatem dolorem eaque modi.</p>
-    <label class="text-label">Skill/Technology</label>
+    <section class="skills-section center-column">
+        <h2>My Skills</h2>
+
+        <div class="skills-list">
+            <label class="text-label">Skill</label>
+            <label class="text-label">Skill</label>
+            <label class="text-label">Skill</label>
+            <label class="text-label">Skill</label>
+            <label class="text-label">Skill</label>
+            <label class="text-label">Skill</label>
+            <label class="text-label">Skill</label>
+            <label class="text-label">Skill</label>
+            <label class="text-label">Skill</label>
+            <label class="text-label">Skill</label>
+        </div>
+    </section>
+
 </body>
 </html>
